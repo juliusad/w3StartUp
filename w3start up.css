@@ -1,0 +1,627 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+}
+
+.nav-bar .logo {
+    padding-left: 50px;
+    align-content: center;
+}
+
+.nav-bar .logo img {
+    width: 60%;
+}
+
+#check,
+.checkbtn {
+    display: none;
+}
+
+.nav-bar .imp-link {
+    display: flex;
+    column-gap: 50px;
+    list-style: none;
+    align-self: center;
+    padding-right: 200px;
+
+}
+
+.nav-bar .imp-link li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-bar .imp-link a:hover {
+    background-color: rgb(114, 114, 226);
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.container1 {
+    background-image: url(back.jpg);
+    background-size: cover;
+    /* height: 65vh; */
+    background-repeat: no-repeat;
+}
+
+.container1 .hmm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-right: 100px;
+    line-height: 30px;
+}
+
+.container1 .hmm .info {
+    width: 50%;
+    height: 30vh;
+}
+
+.container1 .hmm .info h1 {
+    color: white;
+    padding-left: 60px;
+    font-size: xx-large;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.container1 .hmm .info p {
+    padding-left: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.container1 .hmm .more-infor {
+    padding-left: 60px;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    flex: 1;
+}
+
+.container1 .hmm .more-infor .more {
+    background-color: lightgreen;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    height: 40px;
+    width: 7rem;
+}
+
+.container1 .hmm .more-infor .app {
+    border: none;
+    outline: none;
+    text-align: center;
+    color: white;
+    height: 40px;
+    width: 7rem;
+    border-radius: 3px;
+    background-color: lightblue;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: whitesmoke;
+    height: 50vh;
+    /* width: 100%; */
+
+}
+
+.container2 .brand {
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.container2 .brand img {
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.container2 .brand h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container2 .brand p {
+    text-align: center;
+    padding: 5px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .intel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container3 .intel img {
+    width: 50%;
+    padding: 60px 100px;
+}
+
+.container3 .intel h1 {
+    font-weight: bold;
+    color: rgb(114, 114, 226);
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.container3 .intel p {
+    padding-bottom: 20px;
+}
+
+.container3 .intel button {
+    background: white;
+    border: 2px solid rgb(114, 114, 226);
+    padding: 5px 15px;
+    border-radius: 3px;
+}
+
+.container3 .intel .lorem1 {
+    padding-right: 70px;
+}
+
+.container4 {
+    display: grid;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    padding-top: 60px;
+}
+
+.container4 .features {
+    padding-left: 70px;
+    padding-top: 70px;
+}
+
+.container4 .phone img {
+    width: 35%;
+    column-gap: 40px;
+    padding: 30px 10px;
+}
+
+.container4 h1 {
+    color: rgb(114, 114, 226);
+    font-size: 50px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.container5 {
+    background: rgb(35, 35, 93);
+    display: block;
+    margin-top: 80px;
+    padding-bottom: 60px;
+    height: 60vh;
+}
+
+.container5 h1 {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    align-content: center;
+}
+
+.container5 p {
+    color: white;
+    text-align: center;
+}
+
+.container5 .support {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.container5 .support .sup {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container5 .support .sup img {
+    /* margin-left: 100px; */
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 30px;
+}
+
+.container6 .our {
+    align-content: center;
+    text-align: center;
+}
+
+.container6 .our h2 {
+    color: aquamarine;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.container7 {
+    padding: 20px 40px;
+}
+
+.container7 .seven {
+    width: 100%;
+    text-align: center;
+}
+
+.container7 .seven button {
+    color: white;
+    margin-bottom: 30px;
+    background: aquamarine;
+    border: 0;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.container7 .seven h2 {
+    color: aquamarine;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.container7 .seven p {
+    align-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    color: gray;
+}
+
+.container7 .graph {
+    /* display: grid;
+    grid-template-columns: 50% 1fr; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 22px;
+    /* padding-: 20%; */
+}
+
+.container7 .graph .graph-chat {
+    padding-right: 40px;
+}
+
+.container7 .graph .graph-chat h2 {
+    color: aquamarine;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.container7 .graph .graph-chat h2 span {
+    color: white;
+    font-size: 30px;
+    background-color: aquamarine;
+}
+
+.container7 .graph .graph-chat p {
+    color: gray;
+}
+
+.container9 {
+    padding-left: 50px;
+}
+
+.container9 .ion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9 .ion .passion {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.container9 .ion .mission {
+    width: 50%;
+}
+
+.container9 .ion .passion h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+
+}
+
+.container9 .ion .passion .pec {
+    color: aquamarine;
+    text-transform: capitalize;
+}
+
+.container9 .ion .passion .pec h1 {
+    width: 100%;
+    height: 5vh;
+    background-color: gray;
+    position: sticky;
+    border-radius: 2px;
+}
+
+.container9 .ion .passion .pec b {
+    color: aquamarine;
+}
+
+.container9 .ion .passion .pec h1 span {
+    width: 80%;
+    height: 4.8vh;
+    top: 100;
+    position: absolute;
+    background-color: aquamarine;
+    border-radius: 2px;
+}
+
+.container9 .mission {
+    padding-right: 40px;
+}
+
+.container9 .mission h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.container9 .mission h3 {
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media (max-width:950px) {
+    .checkbtn {
+        display: block;
+        color: white;
+        font-size: 20px;
+        align-content: center;
+        background-color: blue;
+
+    }
+
+
+    .nav-bar .imp-link li {
+        font-size: 15px;
+        padding: 5px;
+        text-align: center;
+        width: 200px;
+        border-bottom: 2px solid white;
+
+    }
+
+    .nav-bar .imp-link li :hover {
+        background-color: blue;
+    }
+
+    .nav-bar .imp-link li a {
+        font-size: large;
+        transition: none;
+    }
+
+    .nav-bar .imp-link li a:hover {
+        background-color: white;
+        color: rgb(114, 114, 226);
+    }
+
+    .nav-bar .imp-link {
+        position: absolute;
+        width: 30%;
+        display: inline-block;
+        height: 30vh;
+        background: #2c3e50;
+        top: 50px;
+        right: -100%;
+        transition: 0.5s;
+        align-content: center;
+    }
+
+
+
+    #check:hover~.imp-link {
+        right: 0;
+    }
+
+    .container1 {
+        width: auto;
+        height: auto;
+    }
+
+    .container1 .hmm {
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+
+    .container1 .hmm .info {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container1 .hmm .img-adv {
+        width: 100%;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:800px) {
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .container2 .brand {
+        width: 100%;
+    }
+
+    .container3 .intel {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container3 .intel .lorem1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container4 .features {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .container4 .features p {}
+
+    .container4 .phone {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container4 .phone img {
+        width: 50%;
+    }
+
+    .container5 {
+        height: auto;
+    }
+
+    .container5 .support .sup img {
+        width: 20%;
+    }
+
+    .container5 .support {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container6,
+    .container10 .container7,
+    .container7 .graph {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container6 .service .image {
+        margin-bottom: 20px;
+    }
+
+    .container6 .service .image img {
+        width: 15%;
+    }
+
+    .container6 .our {}
+
+    .container7 .graph img {
+        padding-bottom: 30px;
+    }
+
+    .container7 .graph .graph-chat {
+        width: auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    .container7 .graph .graph-chat h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container9 .ion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container9 .ion .passion {
+        width: 100%;
+        padding-right: 30px;
+    }
+
+    .container9 .ion .passion h1 {}
+
+    .container9 .ion .mission {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container10 .latest,
+    .container13 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .latest {
+        width: 100%;
+    }
+
+    .container11 .fea,
+    .container12 .profile {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        row-gap: 20px;
+        padding: 30px 40px;
+    }
+
+    .container12 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container12 .profile {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:840px) {
+    .container1 .hmm .img-adv {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1024px) {
+    .container1 .hmm .img-adv {
+        margin-top: px;
+    }
+}
